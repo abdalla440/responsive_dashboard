@@ -36,6 +36,9 @@ class Assets {
   static const String widgetsAllExpensesItemHeader = 'lib/features/dashboard/presentation/views/widgets/all_expenses_item_header.dart';
   static const String widgetsAllExpensesWidgetHeader = 'lib/features/dashboard/presentation/views/widgets/all_expenses_widget_header.dart';
   static const String widgetsCustomBackgroundContainer = 'lib/core/widgets/custom_background_container.dart';
+  static const String widgetsCustomInputField = 'lib/features/dashboard/presentation/views/widgets/custom_input_field.dart';
+  static const String widgetsCustomTextButton = 'lib/core/widgets/custom_text_button.dart';
+  static const String widgetsCustomTextField = 'lib/features/dashboard/presentation/views/widgets/custom_text_field.dart';
   static const String widgetsDrawerItem = 'lib/features/dashboard/presentation/views/widgets/drawer_item.dart';
   static const String widgetsDrawerItemsListView = 'lib/features/dashboard/presentation/views/widgets/drawer_items_list_view.dart';
   static const String widgetsLatestTransaction = 'lib/features/dashboard/presentation/views/widgets/latest_transaction.dart';
@@ -43,6 +46,7 @@ class Assets {
   static const String widgetsMyCardWidget = 'lib/features/dashboard/presentation/views/widgets/my_card_widget.dart';
   static const String widgetsNavigationDrawerWidget = 'lib/features/dashboard/presentation/views/widgets/navigation_drawer_widget.dart';
   static const String widgetsQuickInvoice = 'lib/features/dashboard/presentation/views/widgets/quick_invoice.dart';
+  static const String widgetsQuickInvoiceForm = 'lib/features/dashboard/presentation/views/widgets/quick_invoice_form.dart';
   static const String widgetsQuickInvoiceHeader = 'lib/features/dashboard/presentation/views/widgets/quick_invoice_header.dart';
   static const String widgetsUserListTile = 'lib/features/dashboard/presentation/views/widgets/user_list_tile.dart';
 

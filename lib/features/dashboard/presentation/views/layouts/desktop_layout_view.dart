@@ -21,6 +21,9 @@ class DesktopLayoutView extends StatelessWidget {
           flex: 100,
           child: Column(
             children: [
+              SizedBox(
+                height:40.0 ,
+              ),
               AllExpenses(),
               SizedBox(
                 height: 24.0,
@@ -29,11 +32,17 @@ class DesktopLayoutView extends StatelessWidget {
             ],
           ),
         ),
-        // SizedBox(width: 24.0,),
-        // Expanded(
-        //     flex:77,
-        //
-        //     child: MyCardWidget()),
+        SizedBox(width: 24.0,),
+        Expanded(
+            flex:77,
+            child: Column(
+              children: [
+                SizedBox(
+                  height:40.0 ,
+                ),
+                MyCardWidget(),
+              ],
+            )),
       ]),
     );
   }
