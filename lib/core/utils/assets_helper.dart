@@ -1,7 +1,7 @@
 abstract class AssetsHelper {
   /// Assets for imagesCardImage
   /// assets/images/card_image.svg
-  static const String imagesCardImage = "assets/images/card_image.svg";
+  static const String imagesCardImage = "assets/images/card_image.png";
 
   /// Assets for imagesPerson1ImagePlaceholder
   /// assets/images/person_1_image_placeholder.svg
@@ -69,4 +69,7 @@ abstract class AssetsHelper {
   /// Assets for iconsWalletIcon
   /// assets/icons/wallet_icon.svg
   static const String iconsWalletIcon = "assets/icons/wallet_icon.svg";
+  static const String iconsGalleryIcon =
+      "assets/icons/gallery.svg";
+
 }

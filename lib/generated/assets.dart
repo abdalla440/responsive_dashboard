@@ -2,6 +2,8 @@
 class Assets {
   Assets._();
 
+  static const String assetsIconsInvestmentsIcon = 'assets/icons/investments_icon.svg';
+  static const String assetsImagesCardImage = 'assets/images/card_image.svg';
   static const String dataAllExpensesModel = 'lib/features/dashboard/data/all_expenses_model.dart';
   static const String dataDrawerItemModel = 'lib/features/dashboard/data/drawer_item_model.dart';
   static const String dataUserModel = 'lib/features/dashboard/data/user_model.dart';
@@ -9,6 +11,7 @@ class Assets {
   static const String iconsBalanceIcon = 'assets/icons/balance_icon.svg';
   static const String iconsDashboardIcon = 'assets/icons/dashboard_icon.svg';
   static const String iconsExpensesIcon = 'assets/icons/expenses_icon.svg';
+  static const String iconsGallery = 'assets/icons/gallery.svg';
   static const String iconsImagePlaceholderIcon = 'assets/icons/image_placeholder_icon.svg';
   static const String iconsIncomeIcon = 'assets/icons/income_icon.svg';
   static const String iconsInvestmentsIcon = 'assets/icons/investments_icon.svg';
@@ -17,7 +20,7 @@ class Assets {
   static const String iconsStatisticsIcon = 'assets/icons/statistics_icon.svg';
   static const String iconsTransactionIcon = 'assets/icons/transaction_icon.svg';
   static const String iconsWalletIcon = 'assets/icons/wallet_icon.svg';
-  static const String imagesCardImage = 'assets/images/card_image.svg';
+  static const String imagesCardImage = 'assets/images/card_image.png';
   static const String imagesPerson1ImagePlaceholder = 'assets/images/person_1_image_placeholder.svg';
   static const String imagesPerson2ImagePlaceholder = 'assets/images/person_2_image_placeholder.svg';
   static const String imagesPerson3ImagePlaceholder = 'assets/images/person_3_image_placeholder.svg';
@@ -39,12 +42,16 @@ class Assets {
   static const String widgetsCustomInputField = 'lib/features/dashboard/presentation/views/widgets/custom_input_field.dart';
   static const String widgetsCustomTextButton = 'lib/core/widgets/custom_text_button.dart';
   static const String widgetsCustomTextField = 'lib/features/dashboard/presentation/views/widgets/custom_text_field.dart';
+  static const String widgetsDotsPageIndicator = 'lib/features/dashboard/presentation/views/widgets/dots_page_indicator.dart';
   static const String widgetsDrawerItem = 'lib/features/dashboard/presentation/views/widgets/drawer_item.dart';
   static const String widgetsDrawerItemsListView = 'lib/features/dashboard/presentation/views/widgets/drawer_items_list_view.dart';
   static const String widgetsLatestTransaction = 'lib/features/dashboard/presentation/views/widgets/latest_transaction.dart';
   static const String widgetsLazyLayoutBuilder = 'lib/core/widgets/lazy_layout_builder.dart';
+  static const String widgetsMyCardSection = 'lib/features/dashboard/presentation/views/widgets/my_card_section.dart';
   static const String widgetsMyCardWidget = 'lib/features/dashboard/presentation/views/widgets/my_card_widget.dart';
   static const String widgetsNavigationDrawerWidget = 'lib/features/dashboard/presentation/views/widgets/navigation_drawer_widget.dart';
+  static const String widgetsPaymentCardWidget = 'lib/features/dashboard/presentation/views/widgets/payment_card_widget.dart';
+  static const String widgetsPaymentCardsPageView = 'lib/features/dashboard/presentation/views/widgets/payment_cards_page_view.dart';
   static const String widgetsQuickInvoice = 'lib/features/dashboard/presentation/views/widgets/quick_invoice.dart';
   static const String widgetsQuickInvoiceForm = 'lib/features/dashboard/presentation/views/widgets/quick_invoice_form.dart';
   static const String widgetsQuickInvoiceHeader = 'lib/features/dashboard/presentation/views/widgets/quick_invoice_header.dart';
