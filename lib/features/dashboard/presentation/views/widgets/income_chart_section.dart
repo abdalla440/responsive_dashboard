@@ -40,9 +40,11 @@ class IncomeChartSection extends StatelessWidget {
           ),
         ),
         Expanded(
-          child:
-          Column(children: incomeItemsList.map((e) => IncomeTileItemWidget(incomeTileItemModel: e)).toList(),)
-        )
+            child: Column(
+          children: incomeItemsList
+              .map((e) => IncomeTileItemWidget(incomeTileItemModel: e))
+              .toList(),
+        ))
       ],
     );
   }

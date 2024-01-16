@@ -6,6 +6,7 @@ import 'package:responsive_dashboard/features/dashboard/presentation/views/layou
 import 'package:responsive_dashboard/features/dashboard/presentation/views/layouts/tablet_layout_view.dart';
 import 'package:responsive_dashboard/features/dashboard/presentation/views/widgets/mobile_body_view.dart';
 
+import '../../../../core/utils/size_config.dart';
 import 'widgets/navigation_drawer_widget.dart';
 
 class DashBoardPage extends StatefulWidget {
@@ -21,7 +22,7 @@ class _DashBoardPageState extends State<DashBoardPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       key: scaffoldKey,
-      appBar: MediaQuery.sizeOf(context).width<800? AppBar(
+      appBar: MediaQuery.sizeOf(context).width<SizeConfig.tabletBreakPoint? AppBar(
         backgroundColor: Colors.black,
         leading: IconButton(
             onPressed: () {

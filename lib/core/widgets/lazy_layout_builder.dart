@@ -1,6 +1,7 @@
 import 'dart:developer';
 
 import 'package:flutter/material.dart';
+import 'package:responsive_dashboard/core/utils/size_config.dart';
 
 class LazyLayoutBuilder extends StatelessWidget {
   const LazyLayoutBuilder(
@@ -15,9 +16,9 @@ class LazyLayoutBuilder extends StatelessWidget {
   Widget build(BuildContext context) {
     return LayoutBuilder(
       builder: (context, constraints) {
-        if (constraints.maxWidth < 800) {
+        if (constraints.maxWidth < SizeConfig.tabletBreakPoint) {
           return mobileLayoutView(context);
-        } else if (constraints.maxWidth < 1250) {
+        } else if (constraints.maxWidth < SizeConfig.desktopBreakPoint) {
           return tabletLayoutView(context);
         } else {
           return desktopLayoutView(context);

@@ -54,6 +54,7 @@ class Assets {
   static const String widgetsIncomeChartSection = 'lib/features/dashboard/presentation/views/widgets/income_chart_section.dart';
   static const String widgetsIncomeDonatChart = 'lib/features/dashboard/presentation/views/widgets/income_donat_chart.dart';
   static const String widgetsIncomeHeader = 'lib/features/dashboard/presentation/views/widgets/income_header.dart';
+  static const String widgetsIncomeOverSizeChartSection = 'lib/features/dashboard/presentation/views/widgets/income_over_size_chart_section.dart';
   static const String widgetsLatestTransaction = 'lib/features/dashboard/presentation/views/widgets/latest_transaction.dart';
   static const String widgetsLazyLayoutBuilder = 'lib/core/widgets/lazy_layout_builder.dart';
   static const String widgetsMobileBodyView = 'lib/features/dashboard/presentation/views/widgets/mobile_body_view.dart';
