@@ -13,6 +13,7 @@ class NavigationDrawerWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
+      width: MediaQuery.sizeOf(context).width*0.75,
       color: Colors.white,
       child: CustomScrollView(slivers: [
         SliverToBoxAdapter(

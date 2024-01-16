@@ -15,9 +15,9 @@ class LazyLayoutBuilder extends StatelessWidget {
   Widget build(BuildContext context) {
     return LayoutBuilder(
       builder: (context, constraints) {
-        if (constraints.maxWidth < 600) {
+        if (constraints.maxWidth < 800) {
           return mobileLayoutView(context);
-        } else if (constraints.maxWidth < 900) {
+        } else if (constraints.maxWidth < 1250) {
           return tabletLayoutView(context);
         } else {
           return desktopLayoutView(context);

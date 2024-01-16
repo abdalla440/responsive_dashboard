@@ -5,7 +5,10 @@ class Assets {
   static const String assetsIconsInvestmentsIcon = 'assets/icons/investments_icon.svg';
   static const String assetsImagesCardImage = 'assets/images/card_image.svg';
   static const String dataAllExpensesModel = 'lib/features/dashboard/data/all_expenses_model.dart';
+  static const String dataCustomPieChartSectionDataModel = 'lib/features/dashboard/data/custom_pie_chart_section_data_model.dart';
   static const String dataDrawerItemModel = 'lib/features/dashboard/data/drawer_item_model.dart';
+  static const String dataIncomeTileItemModel = 'lib/features/dashboard/data/income_tile_item_model.dart';
+  static const String dataTransactionHistoryModel = 'lib/features/dashboard/data/transaction_history_model.dart';
   static const String dataUserModel = 'lib/features/dashboard/data/user_model.dart';
   static const String generatedAssets = 'lib/generated/assets.dart';
   static const String iconsBalanceIcon = 'assets/icons/balance_icon.svg';
@@ -32,8 +35,10 @@ class Assets {
   static const String libMain = 'lib/main.dart';
   static const String utilsAssetsHelper = 'lib/core/utils/assets_helper.dart';
   static const String utilsColorHelper = 'lib/core/utils/color_helper.dart';
+  static const String utilsSizeConfig = 'lib/core/utils/size_config.dart';
   static const String utilsStyleHelper = 'lib/core/utils/style_helper.dart';
   static const String viewsDashboardPage = 'lib/features/dashboard/presentation/views/dashboard_page.dart';
+  static const String viewsWidgetsDrawerItem = 'lib/features/dashboard/presentation/views/widgets/drawer_item.dart';
   static const String widgetsAllExpenses = 'lib/features/dashboard/presentation/views/widgets/all_expenses.dart';
   static const String widgetsAllExpensesItem = 'lib/features/dashboard/presentation/views/widgets/all_expenses_item.dart';
   static const String widgetsAllExpensesItemHeader = 'lib/features/dashboard/presentation/views/widgets/all_expenses_item_header.dart';
@@ -45,8 +50,13 @@ class Assets {
   static const String widgetsDotsPageIndicator = 'lib/features/dashboard/presentation/views/widgets/dots_page_indicator.dart';
   static const String widgetsDrawerItem = 'lib/features/dashboard/presentation/views/widgets/drawer_item.dart';
   static const String widgetsDrawerItemsListView = 'lib/features/dashboard/presentation/views/widgets/drawer_items_list_view.dart';
+  static const String widgetsIncome = 'lib/features/dashboard/presentation/views/widgets/income.dart';
+  static const String widgetsIncomeChartSection = 'lib/features/dashboard/presentation/views/widgets/income_chart_section.dart';
+  static const String widgetsIncomeDonatChart = 'lib/features/dashboard/presentation/views/widgets/income_donat_chart.dart';
+  static const String widgetsIncomeHeader = 'lib/features/dashboard/presentation/views/widgets/income_header.dart';
   static const String widgetsLatestTransaction = 'lib/features/dashboard/presentation/views/widgets/latest_transaction.dart';
   static const String widgetsLazyLayoutBuilder = 'lib/core/widgets/lazy_layout_builder.dart';
+  static const String widgetsMobileBodyView = 'lib/features/dashboard/presentation/views/widgets/mobile_body_view.dart';
   static const String widgetsMyCardSection = 'lib/features/dashboard/presentation/views/widgets/my_card_section.dart';
   static const String widgetsMyCardWidget = 'lib/features/dashboard/presentation/views/widgets/my_card_widget.dart';
   static const String widgetsNavigationDrawerWidget = 'lib/features/dashboard/presentation/views/widgets/navigation_drawer_widget.dart';
@@ -55,6 +65,9 @@ class Assets {
   static const String widgetsQuickInvoice = 'lib/features/dashboard/presentation/views/widgets/quick_invoice.dart';
   static const String widgetsQuickInvoiceForm = 'lib/features/dashboard/presentation/views/widgets/quick_invoice_form.dart';
   static const String widgetsQuickInvoiceHeader = 'lib/features/dashboard/presentation/views/widgets/quick_invoice_header.dart';
+  static const String widgetsTransactionHistory = 'lib/features/dashboard/presentation/views/widgets/transaction_history.dart';
+  static const String widgetsTransactionHistoryHeader = 'lib/features/dashboard/presentation/views/widgets/transaction_history_header.dart';
+  static const String widgetsTransactionHistoryTile = 'lib/features/dashboard/presentation/views/widgets/transaction_history_tile.dart';
   static const String widgetsUserListTile = 'lib/features/dashboard/presentation/views/widgets/user_list_tile.dart';
 
 }
