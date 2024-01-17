@@ -21,11 +21,11 @@ class UserListTile extends StatelessWidget {
         leading: SvgPicture.asset(userModel.imagePath),
         title: Text(
           userModel.name,
-          style: StyleHelper.textStyle16SemiBold,
+          style: StyleHelper.textStyle16SemiBold(context),
         ),
         subtitle: Text(
           userModel.email,
-          style: StyleHelper.textStyle12Regular,
+          style: StyleHelper.textStyle12Regular(context),
         ),
       ),
     );

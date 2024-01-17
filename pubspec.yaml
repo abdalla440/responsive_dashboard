@@ -49,6 +49,7 @@ dev_dependencies:
   flutter_svg: ^2.0.9
   expandable_page_view: ^1.0.17
   fl_chart: ^0.66.0
+  device_preview: ^1.1.0
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 

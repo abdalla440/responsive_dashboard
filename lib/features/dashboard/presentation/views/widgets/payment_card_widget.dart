@@ -29,16 +29,16 @@ class PaymentCardWidget extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.end,
             children: [
               ListTile(
-                contentPadding:
-                    const EdgeInsets.only(left: 31, top: 20, right: 45),
+                // contentPadding:
+                //     const EdgeInsets.only(left: 31, top: 20, right: 45),
                 title: Text(
                   'Name card',
-                  style: StyleHelper.textStyle16Regular
+                  style: StyleHelper.textStyle16Regular(context)
                       .copyWith(color: Colors.white),
                 ),
-                subtitle: const Text(
+                subtitle:  Text(
                   'Syah Bandi',
-                  style: StyleHelper.textStyle20Medium,
+                  style: StyleHelper.textStyle20Medium(context),
                 ),
                 trailing: SvgPicture.asset(AssetsHelper.iconsGalleryIcon),
               ),
@@ -50,7 +50,7 @@ class PaymentCardWidget extends StatelessWidget {
                   children: [
                     Text(
                       '0918 8124 0042 8129',
-                      style: StyleHelper.textStyle24SemiBold
+                      style: StyleHelper.textStyle24SemiBold(context)
                           .copyWith(color: Colors.white),
                     ),
                     const SizedBox(
@@ -58,7 +58,7 @@ class PaymentCardWidget extends StatelessWidget {
                     ),
                     Text(
                       '12/20 - 124',
-                      style: StyleHelper.textStyle16Regular
+                      style: StyleHelper.textStyle16Regular(context)
                           .copyWith(color: Colors.white),
                     ),
                   ],

@@ -30,7 +30,7 @@ class _MyCardSectionState extends State<MyCardSection> {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        const Text('My Card',style: StyleHelper.textStyle20SemiBold,),
+         Text('My Card',style: StyleHelper.textStyle20SemiBold(context),),
         const SizedBox(height: 20.0,),
         PaymentCardsPageView(pageController:pageController),
         const SizedBox(height: 20.0,),

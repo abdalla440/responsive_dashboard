@@ -47,23 +47,34 @@ class SelectedAllExpensesItem extends StatelessWidget {
               imageColor: Colors.white,
               imageBackgroundColor: Colors.white.withOpacity(0.1)),
           const SizedBox(height: 34.0),
-          Text(
-            allExpensesModel.title,
-            style:
-                StyleHelper.textStyle16SemiBold.copyWith(color: Colors.white),
+          FittedBox(
+            fit: BoxFit.scaleDown,
+
+            child: Text(
+              allExpensesModel.title,
+              style:
+                  StyleHelper.textStyle16SemiBold(context).copyWith(color: Colors.white),
+            ),
           ),
           const SizedBox(height: 8.0),
-          Text(
-            allExpensesModel.data,
-            style: StyleHelper.textStyle14Regular.copyWith(
-              color: Colors.white.withOpacity(0.5),
+          FittedBox(
+            fit: BoxFit.scaleDown,
+
+            child: Text(
+              allExpensesModel.data,
+              style: StyleHelper.textStyle14Regular(context).copyWith(
+                color: Colors.white.withOpacity(0.5),
+              ),
             ),
           ),
           const SizedBox(height: 16.0),
-          Text(
-            allExpensesModel.value,
-            style:
-                StyleHelper.textStyle24SemiBold.copyWith(color: Colors.white),
+          FittedBox(
+            fit: BoxFit.scaleDown,
+            child: Text(
+              allExpensesModel.value,
+              style:
+                  StyleHelper.textStyle24SemiBold(context).copyWith(color: Colors.white),
+            ),
           ),
         ],
       ),
@@ -94,19 +105,30 @@ class UnSelectedAllExpensesItem extends StatelessWidget {
             imagePath: allExpensesModel.imagePath,
           ),
           const SizedBox(height: 34.0),
-          Text(
-            allExpensesModel.title,
-            style: StyleHelper.textStyle16SemiBold,
+          FittedBox(
+            fit: BoxFit.scaleDown,
+
+            child: Text(
+              allExpensesModel.title,
+              style: StyleHelper.textStyle16SemiBold(context),
+            ),
           ),
           const SizedBox(height: 8.0),
-          Text(
-            allExpensesModel.data,
-            style: StyleHelper.textStyle14Regular,
+          FittedBox(
+            fit: BoxFit.scaleDown,
+
+            child: Text(
+              allExpensesModel.data,
+              style: StyleHelper.textStyle14Regular(context),
+            ),
           ),
           const SizedBox(height: 16.0),
-          Text(
-            allExpensesModel.value,
-            style: StyleHelper.textStyle24SemiBold,
+          FittedBox(
+            fit: BoxFit.scaleDown,
+            child: Text(
+              allExpensesModel.value,
+              style: StyleHelper.textStyle24SemiBold(context),
+            ),
           ),
         ],
       ),

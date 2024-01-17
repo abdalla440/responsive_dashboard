@@ -25,7 +25,8 @@ class Income extends StatelessWidget {
         children: [
           const IncomeHeader(),
           const SizedBox(height: 16.0),
-         ( width < 1580 && width>SizeConfig.desktopBreakPoint)
+         ( width < 1700
+             && width>SizeConfig.desktopBreakPoint)
               ? IncomeOverSizeChartSection()
               : IncomeChartSection(),
           Divider(

@@ -81,7 +81,7 @@ class _IncomeOverSizeDonatChartState extends State<IncomeOverSizeDonatChart> {
             itemsList.length,
             (index) => PieChartSectionData(
                   title: '% ${itemsList[index].value.toInt().toString()}',
-                  titleStyle: StyleHelper.textStyle16SemiBold
+                  titleStyle: StyleHelper.textStyle16SemiBold(context)
                       .copyWith(color: Colors.white),
                   badgeWidget: selectedIndex == index
                       ? Container(

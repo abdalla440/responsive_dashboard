@@ -20,7 +20,7 @@ class CustomInputField extends StatelessWidget {
         enabledBorder: buildBorder(),
         focusedBorder: buildBorder(),
         hintText: hintText,
-        hintStyle: StyleHelper.textStyle16Regular.copyWith(color: ColorHelper.textDarkGrayColor)
+        hintStyle: StyleHelper.textStyle16Regular(context).copyWith(color: ColorHelper.textDarkGrayColor)
       ),
     );
   }

@@ -35,7 +35,7 @@ class InActiveDrawerTile extends StatelessWidget {
       leading: SvgPicture.asset(drawerItemModel.iconPath),
       title: Text(
         drawerItemModel.title,
-        style: StyleHelper.textStyle16Regular,
+        style: StyleHelper.textStyle16Regular(context),
       ),
     );
   }
@@ -55,7 +55,7 @@ class ActiveDrawerTile extends StatelessWidget {
       leading: SvgPicture.asset(drawerItemModel.iconPath),
       title: Text(
         drawerItemModel.title,
-        style: StyleHelper.textStyle16Bold,
+        style: StyleHelper.textStyle16Bold(context),
       ),
       trailing: Container(
         color: ColorHelper.mainLightBlueColor,

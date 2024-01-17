@@ -44,24 +44,50 @@ class _AllExpensesState extends State<AllExpenses> {
             height: 16.0,
           ),
           Row(
-            children: itemsList.asMap().entries.map((e) {
-              return Expanded(
+
+            children: [
+              Expanded(
                 child: GestureDetector(
                   onTap: () {
                     setState(() {
-                      selectedItem = e.key;
+                      selectedItem = 0;
                     });
                   },
-                  child: Padding(
-                    padding: EdgeInsets.all(e.key == 1 ? 12.0 : 0),
-                    child: AllExpensesItem(
-                      isActive: selectedItem == e.key,
-                      allExpensesModel: e.value,
-                    ),
+                  child: AllExpensesItem(
+                    isActive: selectedItem == 0,
+                    allExpensesModel: itemsList[0],
                   ),
                 ),
-              );
-            }).toList(),
+              ),
+              const SizedBox(width: 12.0),
+              Expanded(
+                child: GestureDetector(
+                  onTap: () {
+                    setState(() {
+                      selectedItem = 1;
+                    });
+                  },
+                  child: AllExpensesItem(
+                    isActive: selectedItem == 1,
+                    allExpensesModel: itemsList[1],
+                  ),
+                ),
+              ),
+              const SizedBox(width: 12.0),
+              Expanded(
+                child: GestureDetector(
+                  onTap: () {
+                    setState(() {
+                      selectedItem = 2;
+                    });
+                  },
+                  child: AllExpensesItem(
+                    isActive: selectedItem == 2,
+                    allExpensesModel: itemsList[2],
+                  ),
+                ),
+              ),
+            ]
           )
         ],
       ),

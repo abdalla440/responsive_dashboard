@@ -11,9 +11,9 @@ class IncomeHeader extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const Text(
+         Text(
           'All Expenses',
-          style: StyleHelper.textStyle20SemiBold,
+          style: StyleHelper.textStyle20SemiBold(context),
         ),
         const Spacer(),
         DropdownMenu(
